@@ -1,0 +1,27 @@
+@media (max-width: 320px) {
+  main {
+    background-size: 1150px;
+  }
+  .vertical-line{
+    display: none;
+  }
+  .bg > h3 {
+    top: 380px;
+    font-size: 50px;
+  }
+  .mainContact {
+    padding: 0 10px;
+  }
+  .bg {
+    height: 600px;
+  }
+  .strong {
+    margin-bottom: 30px !important;
+  }
+  .vertical-line2 {
+    height: 55px;
+  }
+  .text{
+    font-size: 18px;
+  }
+}

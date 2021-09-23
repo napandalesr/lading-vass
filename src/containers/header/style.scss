@@ -1,0 +1,40 @@
+@import '../../styles//index.scss';
+
+.header {
+  background-color: black !important;
+  transition: background-color 0.5s ease !important;
+}
+
+.headerTransparent {
+  background-color: transparent !important;
+  transition: background-color 0.5s ease !important;
+}
+
+a {
+  color: white !important;
+  padding: 8px 10px !important;
+}
+
+.nav-link > span {
+  font-size: 8px;
+  margin-left: 5px;
+}
+
+.navbar-toggler-icon {
+  color: white !important;
+}
+
+.navbar-toggler {
+  position:absolute !important;
+  right: 20px !important;
+  top: 20px !important;
+}
+
+.show {
+  height: 100vh !important;
+  transition: 0.5s;
+}
+
+.fixed-top {
+  top: 5px !important;
+}

@@ -1,0 +1,23 @@
+@media (min-width: 992px)  {
+  .bg {
+    height: 640px;
+    width: 100%;
+  }
+  main{
+    background-size: 100% 640px;
+  }
+  .bg > h3 {
+    bottom: 0px;
+    right: 140px;
+    font-size: 6vw;
+  }
+  .mainContact {
+    padding: 100px 60px;
+  }
+  .vertical-line2 {
+    height: 60px;
+  }
+  .text-aside {
+    margin-left: 40px;
+  }
+}

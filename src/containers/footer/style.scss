@@ -1,0 +1,18 @@
+footer {
+  //padding: 30px 120px;
+  background-color: #161616;
+  color: white;
+  border-bottom: solid;
+  border-top: solid;
+}
+
+.imgFooter {
+  width: 80px;
+}
+
+//Queries 320px
+@import './queries/screen320';
+//Queries 768px
+@import './queries/screen768';
+//Queries LG
+@import './queries/screenLg';

@@ -1,0 +1,11 @@
+.form {
+  background-color: black;
+  color: white;
+  //padding: 90px 400px 100px 120px;
+}
+//Queries 320px
+@import './queries/screen320';
+//Queries 768px
+@import './queries/screen768';
+//Queries LG
+@import './queries/screenLg';

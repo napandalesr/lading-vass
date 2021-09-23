@@ -1,0 +1,37 @@
+.bg {
+  position: relative;
+}
+
+main {
+  background-image: url('./../../images/image.jpg') ;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0;
+}
+
+.bg > h3 {
+  position: absolute;
+  color: #22316c;
+}
+
+.vertical-line {
+  position: absolute;
+  width: 1px;
+  background-color: white;
+  height:900px;
+  right: 130px;
+  top: 0;
+}
+
+.vertical-line2 {
+  width: 1px;
+  background-color: black; 
+}
+
+//Queries 320px
+@import './queries/screen320';
+//Queries 768px
+@import './queries/screen768';
+//Queries LG
+@import './queries/screenLg';
+

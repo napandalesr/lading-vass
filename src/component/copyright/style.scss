@@ -1,0 +1,24 @@
+.copyRight {
+  background-color: #161616;
+  color: white;
+  //padding: 50px 160px;
+}
+
+.social {
+  margin: 5px;
+}
+
+@media (max-width: 992px) {
+  .copyRight {
+    text-align: center;
+    padding: 30px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  .copyRight {
+    padding: 20px;
+    font-size: 12px;
+  }
+}
